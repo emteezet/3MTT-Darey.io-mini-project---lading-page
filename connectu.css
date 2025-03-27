@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+nav{
+    background-color: rgb(159, 43, 226);
+    padding: 15px 45px;
+    width: 80%;
+    border-radius: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    color: white;
+
+}
+
+nav span{
+    color: violet;
+}
+
+nav ul{
+    display: flex;
+    gap: 56px;
+}
+
+nav ul li{
+    list-style: none;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 18px;
+    font-weight: 600;
+    color: violet;
+
+    
+}
+body{
+    background-image: url(img/BG.jpg);
+    background-size: cover;
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+main .pic{
+    width: 50%;
+    height: fit-content;
+}
+
+.pic img{
+    width: 500px;
+    margin-left: 150px;
+
+
+}
+
+main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 50%;
+    gap: 36px;
+}
+
+main .content h1{
+    font-size: 3rem;
+    color: rgb(25, 25, 25);
+}
+
+main .content button{
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 36px;
+    border: none;
+    border: solid violet;
+    background-color: rgb(159, 43, 226);
+    color: white;
+    
+
+}
+
+
+.stories .success-stories{
+    background-color:rgb(253, 243, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+section .success-stories h1{
+    font-size: 2.5rem;
+    color: rgb(25, 25, 25);
+}
+
+section .success-stories .img-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 36px;
+}
+section .success-stories .card{
+    background-color: blueviolet;
+    width: 250px;
+    border-top-left-radius:26px ;
+    border-top-right-radius:26px ;
+}
+
+section .success-stories .card img{
+    width: 250px;
+    border-top-left-radius:26px ;
+    border-top-right-radius:26px ;
+}
+
+.img-content{
+    padding: 10px;
+  
+}
+
+.img-content p{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.img-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.safety{
+    background-color: rgb(248, 248, 248);
+    padding: 80px 0;
+}
+
+.safety-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 26px;
+}
+
+.safety-content h1{
+    font-size: 2.5rem;
+}
+
+.safety-content p{
+    text-align: center;
+}
+
+.safety-content button{
+    padding: 10px 30px;
+    border-radius: 36px;
+    border: none;
+    border: solid violet;
+    background-color: rgb(159, 43, 226);
+    color: white;
+    font-weight: 600;
+}
+
+.downloads{
+    padding: 80px 0;
+    background-color:rgb(253, 243, 253);
+}
+
+.downloads h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.downloads p{
+    margin-bottom: 16px;
+}
+
+.downloads span{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.downloads img{
+    width: 120px;
+}
+
+.dwld{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 8px;
+    align-items: center;
+}
+
+.dwld .right-dwld img{
+    margin-right: auto;
+    width: 360px;
+}
+
+.downloads .left-dwld p{
+    font-size: 1.2rem;
+}
+
+.store #playstore{
+    height: 43px;
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 30px 80px 80px 80px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer, h2, p, a, li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer li{
+    margin-bottom: 8px;
+}
